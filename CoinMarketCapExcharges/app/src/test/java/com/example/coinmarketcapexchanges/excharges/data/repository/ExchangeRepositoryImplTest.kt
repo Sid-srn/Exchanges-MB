@@ -2,7 +2,7 @@ package com.example.coinmarketcapexchanges.excharges.data.repository
 
 import com.example.coinmarketcapexchanges.core.common.ApiResult
 import com.example.coinmarketcapexchanges.core.network.apiResponse.ExchangeInfoResponse
-import com.example.coinmarketcapexchanges.excharges.data.TestDataItens
+import com.example.coinmarketcapexchanges.TestDataItens
 import com.example.coinmarketcapexchanges.excharges.data.remote.ExchangeRemoteDataSource
 import io.mockk.coEvery
 import io.mockk.mockk

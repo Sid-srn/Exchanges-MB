@@ -18,10 +18,6 @@ class ExchangeListViewModel(
     private val _state = MutableStateFlow<ExchangeListState>(ExchangeListState.Loading)
     val state: StateFlow<ExchangeListState> = _state
 
-    init {
-        loadExchanges()
-    }
-
     fun loadExchanges() {
         getExchangesUseCase().onEach { result ->
             when ( result) {

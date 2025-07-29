@@ -8,7 +8,4 @@ data class DataApiStatus(
     @Json(name = "timestamp") val timestamp: String,
     @Json(name = "error_code") val errorCode: Int?,
     @Json(name = "error_message") val errorMessage: String?
-) {
-    val isSuccess: Boolean
-        get() = errorCode == 0 || errorCode == null
-}
+)

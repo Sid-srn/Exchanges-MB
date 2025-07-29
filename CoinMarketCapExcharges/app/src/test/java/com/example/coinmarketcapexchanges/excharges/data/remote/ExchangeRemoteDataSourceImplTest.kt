@@ -4,7 +4,7 @@ import com.example.coinmarketcapexchanges.core.common.ApiResult
 import com.example.coinmarketcapexchanges.core.network.CoinMarketCapApi
 import com.example.coinmarketcapexchanges.core.network.apiResponse.ExchangeAssetsResponse
 import com.example.coinmarketcapexchanges.core.network.apiResponse.ExchangeInfoResponse
-import com.example.coinmarketcapexchanges.excharges.data.TestDataItens
+import com.example.coinmarketcapexchanges.TestDataItens
 import io.mockk.coEvery
 import io.mockk.mockk
 import kotlinx.coroutines.test.runTest

@@ -53,6 +53,7 @@ fun ExchangeListScreen(
     viewModel: ExchangeListViewModel = koinViewModel(),
     navController: NavController
 ) {
+    viewModel.loadExchanges()
     val state by viewModel.state.collectAsState()
 
     Scaffold(
